@@ -28,7 +28,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'haml', '~> 4.0.7'
+gem 'simple_form', '~> 3.1.1'
+gem 'devise', '~> 3.5.2'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'paperclip', '~> 4.3.1'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
