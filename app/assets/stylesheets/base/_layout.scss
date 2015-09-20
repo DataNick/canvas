@@ -1,0 +1,22 @@
+main {
+    padding-top: $title-bar-height;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: $title-bar-height;
+
+		& > h1 {
+	    margin: 0;
+	    padding: 0;
+	    line-height: $title-bar-height;
+	    font-size: 1.35rem;
+		}
+}
+

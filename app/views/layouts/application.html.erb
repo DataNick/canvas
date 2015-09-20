@@ -2,14 +2,20 @@
 <html>
 <head>
   <title>Canvas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0,width=device-width">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-       <p class="notice"><%= notice %></p>
-       <p class="alert"><%= alert %></p>
-<%= yield %>
-
+	<header class="logo">
+		<h1>Canvas</h1>
+	</header>
+		<main>
+		  <p class="notice"><%= notice %></p>
+		  <p class="alert"><%= alert %></p>
+		<%= yield %>
+		</main>
 </body>
 </html>
